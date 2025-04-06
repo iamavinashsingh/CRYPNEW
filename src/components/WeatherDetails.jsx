@@ -26,7 +26,7 @@ export default function WeatherDetails({ city, iconSize = 'w-24 h-24'}) {
         <div className="bg-transparent backdrop-blur-2xl shadow-lg shadow-black/20 border border-white/10 p-4 md:p-6 rounded-3xl hover:border-[#1CA8E8] hover:bg-white/10">
             <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-center justify-between">
                 <div>
-                    <h2 className="text-lg md:text-xl font-bold">{city}</h2>
+                    <h2 className="text-xl md:text-sm font-bold">{city}</h2>
                     <h2 className="text-2xl md:text-4xl">{temp}°C</h2>
                     <div className="flex flex-col gap-1 justify-between mt-2 md:mt-4">
                         <h2 className="text-xs md:text-sm text-gray-400">Humidity: {humidity}%</h2>

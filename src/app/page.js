@@ -1,5 +1,5 @@
 'use client';
-
+import AlertManager from "../notifications/AlertManager";
 import Navbar from '../components/Navbar';
 import CryptoDetails from '../components/CryptoDetails';
 import WeatherDetails from '../components/WeatherDetails';
@@ -10,6 +10,8 @@ export default function Home() {
   return (
     <main className="min-h-screen p-4 bg-cover bg-center bg-no-repeat bg-fixed" 
       style={{ backgroundImage: "url('/crypnew-bg.jpg')" }}>
+      <AlertManager />
+
       <Navbar />
       
       {/* Main Dashboard Container */}
