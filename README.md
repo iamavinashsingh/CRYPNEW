@@ -2,7 +2,7 @@
 
 CrypNew is a **Next.js** application that serves as a dashboard for tracking **cryptocurrency prices**, **weather updates**, and **news alerts**. It integrates real-time data fetching, WebSocket communication, and notification alerts using `react-hot-toast`. The project is designed to be responsive and user-friendly, with a modern UI powered by **Tailwind CSS**.
 
-Deployed URL: https://crypnew.vercel.app/weather
+Deployed URL: https://crypnew.vercel.app/
 ---
 
 ## **Technologies Used**
