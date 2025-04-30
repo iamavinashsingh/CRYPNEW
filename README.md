@@ -12,6 +12,7 @@ Deployed URL: https://crypnew.vercel.app/
 4. **APIs**:
    - **OpenWeatherMap API**: For weather data and alerts.
    - **CoinGecko API**: For cryptocurrency details and market data.
+   - **News APIR**: For latest crypto news
 5. **Notifications**: `react-hot-toast` for user alerts (price changes, weather alerts).
 6. **Charts**: `recharts` for rendering cryptocurrency price charts.
 7. **Backend Proxy**: API routes in Next.js for securely fetching data from third-party APIs.
